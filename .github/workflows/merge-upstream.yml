@@ -24,7 +24,7 @@ jobs:
     - name: Set git identity
       run : |
         git config --global user.email "linjing.olive2@gmail.com"
-        git config --global user.name "bluesyk"
+        git config --global user.name "linjing"
 
     - name: Load upstream commits
       run: git pull https://github.com/coolsnowwolf/lede.git --no-edit --strategy-option ours
